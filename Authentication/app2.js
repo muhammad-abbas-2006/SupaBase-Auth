@@ -1,7 +1,7 @@
 // login page work start
 
-const supabaseUrl = 'https://grdpokfywpqvporuxfry.supabase.co'
-const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdyZHBva2Z5d3BxdnBvcnV4ZnJ5Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTQzODc3NTEsImV4cCI6MjA2OTk2Mzc1MX0.vMX2To9Sa3ltrlnyOOZ_DGAO-tMhVumX08qiEQ2k6P8'
+const supabaseUrl = 
+const supabaseKey =
 const supabase = window.supabase.createClient(supabaseUrl, supabaseKey)
 
 document.getElementById('login-btn').addEventListener('click',async ()=>{
@@ -35,4 +35,5 @@ Swal.fire({
   text: "Login Success fully",
 }) 
 window.open('./Dashboard.html','_self')
+
 }}})
